@@ -1,0 +1,186 @@
+:root {
+    --First-Blue: #137bb8;
+    --Bright-Blue: #17a4cf;
+    --Rough-Blue: #0564b2;
+    --Dark-Purple: #250d47;
+    --Zest-Red: #e43f52;
+    --Tech-Green: #83b744;
+    --Lightish-Tone: #e1e4e9;
+    --Midish-Tone: #97989e;
+    --Darkish-Tone: #4c4e52;
+    --Darkerish-Tone: #161414;
+    --Grayish: #cfd2d9;
+    --Whitish: #f8eeee;
+    --Nightish-Black: #121111;
+
+    --Padding: 20px
+}
+
+.navBar {
+    background-color: var(--Dark-Purple);
+    margin: auto;
+    overflow: hidden;
+    color: var(--Whitish);
+    width: 100%;
+    font-family: “MyFont”, sans-serif;
+}
+
+.navBarParent {
+    display: flex;
+}
+
+.navChild {
+    flex: 1;
+}
+
+.navBar ul {
+    float: right;
+    padding-right: 20px;
+}
+
+.navBar ul li {
+    display: inline;
+}
+
+.navBar picture {
+    border: var(--Tech-Green) solid 2px;
+    float: left;
+    height: auto;
+    width: auto;
+    float: left;
+    border-radius: 2px;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.footer {
+    background-color: var(--Nightish-Black);
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    color: var(--Whitish);
+    width: 100%;
+    font-family: MyFont, sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: var(--Grayish);
+    margin: auto;
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-family: “MyFont”, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: “MyFont”, sans-serif;
+    font-size: 2em;
+    margin: auto;
+}
+
+p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-family: “MyFont”, sans-serif;
+    font-size: 1em;
+}
+
+section {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: var(--Padding);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: var(--Rough-Blue) solid 5px;
+}
+
+.welcomeToThePage {
+    background-color: var(--First-Blue);
+    color: var(--White);
+}
+
+.aboutUs {
+    background-color: var(--Bright-Blue);
+    color: var(--White);
+}
+
+.contactUs {
+    background-color: var(--Dark-Purple);
+    color: var(--Whitish);
+}
+
+.contactUsImage {
+    border: var(--Tech-Green) solid 5px;
+    float: right;
+    width: 90%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+/* achor tags styling */
+.navBar ul li a {
+    display: inline-block;
+    color: var(--Whitish);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+a {
+    color: inherit
+}
+
+a:visited {
+    color: var(--Nightish-Black);
+    outline: none;
+}
+
+.contactUs a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.footer a {
+    color: inherit
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+/* layout for contact us section */
+.contactUsMain {
+    display: flex;
+}
+
+.contactUsChild {
+    flex: 1;
+}
+
+.contactUsChild:first-child {
+    margin-right: 20px;
+}
+
+.waysToContact {
+    display: flex;
+}
+
+.contactWayChild {
+    flex: 1;
+}
+
+.contactWayChild:first-child {
+    margin-right: 20px;
+}
